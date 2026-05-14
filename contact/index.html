@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — forBET Media</title>
+  <meta name="description" content="Contact forBET Media — a Warsaw-based technology and media company. Email us at contact@forbetmedia.com for business inquiries, partnerships, and general questions." />
+  <meta name="theme-color" content="#062B5F" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="forBET Media — home">
+        <span class="logo-mark">for<span>BET</span></span>
+        <span class="logo-text">Media</span>
+      </a>
+      <button class="menu-button" type="button" data-menu-open aria-expanded="false" aria-controls="primary-menu">
+        <span class="bars" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span class="label-text">Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="menu-overlay" data-menu-overlay aria-hidden="true"></div>
+  <aside class="menu-panel" id="primary-menu" data-menu-panel aria-hidden="true" aria-label="Site navigation">
+    <div class="menu-header">
+      <span class="menu-title">Navigation</span>
+      <button class="menu-close" type="button" data-menu-close aria-label="Close menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+    </div>
+    <nav class="menu-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/services/">Services</a></li>
+        <li><a href="/products/">Products</a></li>
+        <li><a href="/technology/">Technology</a></li>
+        <li><a href="/compliance/">Compliance</a></li>
+        <li><a href="/privacy/">Privacy Policy</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-footer">
+      <strong>forBET Media</strong>
+      Warsaw, Poland<br />
+      <a href="mailto:contact@forbetmedia.com">contact@forbetmedia.com</a>
+    </div>
+  </aside>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <div class="page-hero-content">
+          <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> / <span>Contact</span></nav>
+          <span class="eyebrow">Get in touch</span>
+          <h1>Talk to our team</h1>
+          <p class="lead">We're happy to hear from publishers, partners, platforms, and anyone interested in our work. For the fastest reply, please email us directly using the details on this page.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+
+          <aside class="contact-info">
+            <h3>Company details</h3>
+            <dl>
+              <div>
+                <dt>Company</dt>
+                <dd>forBET Media</dd>
+              </div>
+              <div>
+                <dt>Type</dt>
+                <dd>Technology &amp; Media Development Company</dd>
+              </div>
+              <div>
+                <dt>Location</dt>
+                <dd>Warsaw, Poland</dd>
+              </div>
+              <div>
+                <dt>Business email</dt>
+                <dd><a href="mailto:contact@forbetmedia.com">contact@forbetmedia.com</a></dd>
+              </div>
+              <div>
+                <dt>Support email</dt>
+                <dd><a href="mailto:support@forbetmedia.com">support@forbetmedia.com</a></dd>
+              </div>
+              <div>
+                <dt>Response time</dt>
+                <dd>Typically within two business days</dd>
+              </div>
+            </dl>
+          </aside>
+
+          <div class="contact-form-wrap">
+            <h3>Send us a message</h3>
+            <p class="form-intro">Use the form below to outline what you're working on. <strong>For inquiries, please email us directly</strong> at contact@forbetmedia.com — this form is provided as a preview and does not submit to a backend.</p>
+
+            <form data-contact-form novalidate>
+              <div class="form-row two">
+                <div class="form-field">
+                  <label for="cf-name">Full name</label>
+                  <input type="text" id="cf-name" name="name" placeholder="Your name" autocomplete="name" />
+                </div>
+                <div class="form-field">
+                  <label for="cf-email">Email</label>
+                  <input type="email" id="cf-email" name="email" placeholder="you@example.com" autocomplete="email" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="cf-company">Company</label>
+                  <input type="text" id="cf-company" name="company" placeholder="Your company (optional)" autocomplete="organization" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="cf-topic">Topic</label>
+                  <select id="cf-topic" name="topic">
+                    <option value="general">General inquiry</option>
+                    <option value="partnership">Partnership opportunity</option>
+                    <option value="press">Press &amp; media</option>
+                    <option value="careers">Careers</option>
+                    <option value="compliance">Compliance inquiry</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="cf-message">Message</label>
+                  <textarea id="cf-message" name="message" placeholder="Tell us a bit about what you're working on..."></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Send message</button>
+              <p class="form-note" data-form-notice>For inquiries, please email us directly at <a href="mailto:contact@forbetmedia.com">contact@forbetmedia.com</a>.</p>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--gradient">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Frequently asked</span>
+          <h2>Common questions</h2>
+        </div>
+        <div class="faq">
+
+          <div class="faq-item" data-faq-item>
+            <button class="faq-q" type="button" data-faq-trigger aria-expanded="false">
+              <span>Where is forBET Media based?</span>
+              <span class="plus" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-a" data-faq-answer>
+              <div class="faq-a-inner">
+                <p>forBET Media is a registered company headquartered in Warsaw, Poland. We operate from the European Union and serve partners and audiences across multiple markets.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" data-faq-item>
+            <button class="faq-q" type="button" data-faq-trigger aria-expanded="false">
+              <span>What kinds of products do you build?</span>
+              <span class="plus" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-a" data-faq-answer>
+              <div class="faq-a-inner">
+                <p>We design and develop digital media products focused on informational content for sports audiences — including mobile applications, content hubs, editorial dashboards, and publishing tools. All of our products are media-focused and informational in nature.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="faq-item" data-faq-item>
+            <button class="faq-q" type="button" data-faq-trigger aria-expanded="false">
+              <span>How can I get in touch about a partnership?</span>
+              <span class="plus" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-a" data-faq-answer>
+              <div class="faq-a-inner">
+                <p>The best way to reach us is by emailing <a href="mailto:contact@forbetmedia.com">contact@forbetmedia.com</a> with a short description of your project, organization, and what you'd like to explore together. We typically reply within two business days.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-brand">
+            <span class="logo-mark">for<span>BET</span></span>
+            <span class="footer-brand-text">Media</span>
+          </div>
+          <p class="footer-address">
+            <strong>forBET Media</strong>
+            Technology &amp; Media Development Company<br />
+            Warsaw, Poland<br />
+            Business email: <a href="mailto:contact@forbetmedia.com">contact@forbetmedia.com</a>
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick links</h4>
+          <ul class="footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/services/">Services</a></li>
+            <li><a href="/products/">Products</a></li>
+            <li><a href="/technology/">Technology</a></li>
+            <li><a href="/compliance/">Compliance</a></li>
+            <li><a href="/privacy/">Privacy Policy</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Get in touch</h4>
+          <p class="footer-address">
+            For business inquiries:<br />
+            <a href="mailto:contact@forbetmedia.com">contact@forbetmedia.com</a>
+            <br /><br />
+            Support:<br />
+            <a href="mailto:support@forbetmedia.com">support@forbetmedia.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>© All rights reserved 2026 — forBET Media</div>
+        <div><a href="/privacy/">Privacy Policy</a> · <a href="/compliance/">Compliance</a></div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/assets/js/script.js"></script>
+</body>
+</html>
